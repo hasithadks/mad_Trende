@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MyAds">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            app:srcCompat="@drawable/trende" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/header_left"
+            android:layout_marginTop="@dimen/header_top"
+            android:text="@string/txt_flower_myadd"
+            android:textSize="@dimen/header_font" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="676dp"
+
+        android:layout_marginTop="110dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <RelativeLayout
+                android:id="@+id/Layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignStart="@+id/scrollItem"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Item1"
+                    android:layout_width="259dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="@dimen/Item_margin_left"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginEnd="15dp"
+                    android:paddingTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/flower_Orchid" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="122dp"
+                    android:layout_height="123dp"
+                    android:layout_alignTop="@+id/Item_name1"
+                    android:layout_alignBottom="@+id/item_price1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="12dp"
+
+                    app:srcCompat="@drawable/okid" />
+
+
+                <RatingBar
+                    android:id="@+id/ratingbar1"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Item_name1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginTop="9dp"
+                    android:layout_toEndOf="@+id/imageView1"
+                    android:progressTint="@color/colorPrimaryDark"
+                    android:rating="1"
+                    tools:targetApi="lollipop" />
+
+                <Button
+                    android:id="@+id/item_small_button1"
+                    style="@style/MyButtonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_price1"
+                    android:layout_marginStart="129dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_toEndOf="@+id/item_price1"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:contentDescription="@string/btn_flower_delete"
+                    android:text="@string/btn_flower_delete"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/item_price1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_description1"
+                    android:layout_alignStart="@+id/ratingbar1"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginTop="7dp"
+                    android:paddingBottom="@dimen/activity_horizontal_margin"
+                    android:text="@string/txt_flower_price_250" />
+
+                <TextView
+                    android:id="@+id/item_description1"
+                    android:layout_width="260dp"
+                    android:layout_height="67dp"
+                    android:layout_below="@+id/ratingbar1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_toEndOf="@+id/imageView1"
+                    android:text="@string/txt_item_description" />
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/Layout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignStart="@+id/scrollItem"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Item2"
+                    android:layout_width="259dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="@dimen/Item_margin_left"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginEnd="15dp"
+                    android:paddingTop="@dimen/activity_horizontal_margin"
+                    android:text="@string/flower_Orchid" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="122dp"
+                    android:layout_height="123dp"
+                    android:layout_alignTop="@+id/Item_name1"
+                    android:layout_alignBottom="@+id/item_price2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="12dp"
+
+                    app:srcCompat="@drawable/cac" />
+
+
+                <RatingBar
+                    android:id="@+id/ratingbar2"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Item_name1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginTop="9dp"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:progressTint="@color/colorPrimaryDark"
+                    android:rating="1"
+                    tools:targetApi="lollipop" />
+
+                <Button
+                    android:id="@+id/item_small_button2"
+                    style="@style/MyButtonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_price2"
+                    android:layout_marginStart="129dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_toEndOf="@+id/item_price2"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:contentDescription="@string/btn_flower_delete"
+                    android:text="@string/btn_flower_delete"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+                    android:id="@+id/item_price2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/item_description2"
+                    android:layout_alignStart="@+id/ratingbar2"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginTop="7dp"
+                    android:paddingBottom="@dimen/activity_horizontal_margin"
+                    android:text="@string/txt_flower_price_250" />
+
+                <TextView
+                    android:id="@+id/item_description2"
+                    android:layout_width="260dp"
+                    android:layout_height="67dp"
+                    android:layout_below="@+id/ratingbar2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_toEndOf="@+id/imageView2"
+                    android:text="@string/txt_item_description" />
+
+            </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>

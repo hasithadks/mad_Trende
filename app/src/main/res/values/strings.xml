@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Trende+</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_my_adds">My adds</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_payment">Payment</string>
+    <string name="menu_setting">Setting</string>
+
+    <string name="menu_share">Share</string>
+    <string name="menu_logout">Logout</string>
+
+
+    <string name="flower_favorites">FAVORITE</string>
+
+    <string name="flower_Orchid">Orchid Plant</string>
+    <string name="flower_Cactus">Cactus Plants</string>
+    <string name="flower_Bonsai">Bonsai_Plants</string>
+    <string name="flower_Pots">Pots</string>
+    <string name="price_250">Rs 250.00</string>
+    <string name="txt_item_description">There are probably a million reasons this is such a popular bouquet. Of course, there are probably just as many reasons to send this cheerful arrangement. Full of happy flowers, this ceramic happy face mug will bring smiles for years to come. Especially w
+Yellow roses and daisy spray chrysanthemums along with white daisy spray chrysanthemums and oregonia are delivered in the one and only Be Happy® mug.</string>
+    <string name="btn_flower_delete">Delete</string>
+    <string name="txt_flower_price_250">Rs. 250.00</string>
+    <string name="txt_flower_myadd">MY ADS</string>
+    <string name="menu_my_favorite">Favorite</string>
+
+
+    <string name="saman_perera">  Saman Perera</string>
+    <string name="samanperera_gmail_com">  samanperera@gmail.com</string>
+    <string name="no_23_colombp_03">  No 23,Colombp 03</string>
+    <string name="_0765489752">  0765489752</string>
+    <string name="sign_up_now">signup</string>
+    <string name="log_in">login</string>
+    <string name="forgot_password">forgot_password</string>
+
+    <string name="logintitle">  LOGIN</string>
+    <string name="forgot_pass">  FORGOT PASSWORD</string>
+    <string name="UserEdit">EDIT PROFILE</string>
+    <string name="USER_SIGNUP">SIGNUP</string>
+
+    <string name="address">No/75, Temple Road, Bangalawatte, Kadawatha</string>
+    <string name="des">Looking for a friend  Slightly awkward cactus ?????? looking for some love. I just only need water. I will always listen and sometimes speak and i promise to let you know you are loved. so would you like to be my friend?????</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="kadawatha">Kadawatha</string>
+
+
+    <string name="sname">Hasitha Samarasekara</string>
+    <string name="name">Name</string>
+    <string name="contac_no">Contac No</string>
+    <string name="_077445789">077445789</string>
+    <string name="give_rating_for_seller">Give Rating for Seller</string>
+    <string name="seller_rating">Seller Rating</string>
+    <string name="submit_rating">submit Rating</string>
+    <string name="submit">Submit</string>
+    <string name="postbtnn">Add a post</string>
+    <string name="otherphoto">Add a Other Post</string>
+    <string name="mainphoto">Add a Main Photo</string>
+    <string name="add">Add</string>
+    <string name="Sellers">Sellers</string>
+    <string name="location">Location</string>
+
+
+    <string-array name="categoryspin">
+        <item>Cactus Plants</item>
+        <item>Orchid Plants</item>
+        <item>Bonsai Plants</item>
+        <item>Pots</item>
+    </string-array>
+
+    <string-array name="locationspin">
+        <item>Gampaha</item>
+        <item>Kadawatha</item>
+        <item>Kiribathgoda</item>
+        <item>Colombo 05</item>
+        <item>Colombo 06</item>
+        <item>Colombo 07</item>
+        <item>Colombo 08</item>
+        <item>Colombo 09</item>
+        <item>Colombo 10</item>
+        <item>Kelaniya</item>
+        <item>Kaduwela</item>
+        <item>Malabe</item>
+        <item>J-ela</item>
+        <item>Baththaramulla</item>
+    </string-array>
+
+
+    <string name="new_kandy_road_isurupura_malabe_malabe">new kandy road,isurupura,malabe.,Malabe,</string>
+    <string name="colombo_suburbs_western">Colombo-Suburbs,Western</string>
+    <string name="bill_to_the_same_address">Bill to the same address</string>
+    <string name="edit">EDIT</string>
+    <string name="delivary_option">Delivary Option</string>
+    <string name="standard">Standard</string>
+    <string name="get_by_10_17_aug">Get By 10-17 Aug</string>
+    <string name="vat_included_where_applicable">VAT included,where applicable</string>
+
+
+    <string name="total">Total</string>
+    <string name="totprice">Rs. 4250</string>
+    <string name="price">Price : Rs. 1850</string>
+    <string name="price1">Price : Rs. 2400</string>
+    <string name="cart">Cart</string>
+    <string name="des1">Mini Cactus Bonsai Plant Flower Indoor Succulent Perennial Rare Pot</string>
+    <string name="des2">Mini Cactus Bonsai Plant Flower Indoor Succulent Perennial Rare Pot</string>
+    <string name="qty">Qty</string>
+    <string name="qty1">Qty</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="view">View</string>
+
+
+    <string name="amari_gift_collection_sri_lanka">Amari Gift Collection Sri Lanka</string>
+    <string name="lassana_flora_pvt_ltd">Lassana Flora (Pvt.) Ltd</string>
+    <string name="sky_plants">Sky Plants</string>
+    <string name="plants_and_plants_centre">Plants and Plants Centre</string>
+    <string name="tropical_abundance_pvt_ltd">Tropical Abundance (Pvt) Ltd</string>
+    <string name="greenet_plants_and_flowers_pvt_ltd">Greenet Plants and Flowers (Pvt) Ltd</string>
+    <string name="lyra">Lyra</string>
+    <string name="mahima_plant_nursery">Mahima Plant Nursery</string>
+    <string name="location1">Amari, K-Zone, Ja-Ela</string>
+    <string name="location2">07, 25 Wijerama Mawatha, Colombo 00700</string>
+    <string name="location3">169 Nawala Road, Sri Jayawardenepura Kotte 00500</string>
+    <string name="location5">193A, Makola Rd</string>
+    <string name="location6">33 perera Rd, Pannipitiya 10230</string>
+    <string name="location7">870/3 Negombo-Colombo Main Rd, Wattala 11300</string>
+    <string name="location9">183 - 2/2 Galle Rd, Dehiwala-Mount Lavinia 10350</string>
+    <string name="sellers">Sellers</string>
+
+    <string name="pay_lkr_1500_00">Pay LKR.1500.00</string>
+    <string name="lkr_1500_00">LKR 1500.00</string>
+    <string name="the_payment_is_completed">The Payment is completed.</string>
+    <string name="thank_you">Thank You!</string>
+
+    <string name="Sentemail">We have sent an email to \n <b>trendeLk@gmail.com</b> as a receipt.</string>
+</resources>

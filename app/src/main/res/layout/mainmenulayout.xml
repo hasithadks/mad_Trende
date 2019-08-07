@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/Layout111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/tg12"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginStart="20dp"
+        android:layout_alignTop="@+id/imageView"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/textviewprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="Price"
+        android:textSize="18sp"
+
+        android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

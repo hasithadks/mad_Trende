@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentComplete">
+
+
+    <ImageView
+        android:id="@+id/trendelogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/divider"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-182dp"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/trende3" />
+
+    <ImageView
+        android:id="@+id/dividersuccess"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/successimg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        app:srcCompat="@drawable/success_image"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/pricesuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/lkr_1500_00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/thankyousuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/thank_you"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/completedsuccess"
+        android:layout_width="223dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/the_payment_is_completed"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/emailsent"
+        android:layout_width="286dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/Sentemail"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="10sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/moreinfo"
+        android:layout_marginTop="524dp"
+        android:layout_marginStart="75dp"
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>

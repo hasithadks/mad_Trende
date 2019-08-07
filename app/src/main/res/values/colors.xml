@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#059330</color>
+    <color name="colorPrimaryDark">#059330</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="btColor">#059330</color>
+    <color name="btwhite">#00FDFDFD</color>
+
+    <color name="Categorycolor">#059330</color>
+    <color name="pricecolor">#C1D117</color>
+
+    <color name="postbtn">#059330</color>
+    <color name="background">#059330</color>
+    <color name="sellerbtn">#E9DB10</color>
+</resources>
