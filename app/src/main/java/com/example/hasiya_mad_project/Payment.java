@@ -11,8 +11,8 @@ import android.widget.Toast;
 public class Payment extends AppCompatActivity {
     private Button btn;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle SavedInstanceState) {
+        super.onCreate(SavedInstanceState);
         setContentView(R.layout.activity_payment);
         btn = findViewById(R.id.button);
 
@@ -27,7 +27,7 @@ public class Payment extends AppCompatActivity {
         });
     }
         public void openActivity2(){
-            Intent i = new Intent(this, PaymentComplete.class);
-            startActivity(i);
+            Intent j = new Intent(this, PaymentComplete.class);
+            startActivity(j);
         }
     }
