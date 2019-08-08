@@ -10,8 +10,8 @@ import android.widget.Button;
 public class CheakOut extends AppCompatActivity {
 Button b1;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle SavedInstanceState) {
+        super.onCreate(SavedInstanceState);
         setContentView(R.layout.activity_cheak_out);
         b1 = findViewById(R.id.pay);
     }

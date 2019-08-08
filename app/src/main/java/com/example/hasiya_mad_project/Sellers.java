@@ -7,8 +7,8 @@ import android.os.Bundle;
 public class Sellers extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle SavedInstanceState) {
+        super.onCreate(SavedInstanceState);
         setContentView(R.layout.activity_sellers);
     }
 }

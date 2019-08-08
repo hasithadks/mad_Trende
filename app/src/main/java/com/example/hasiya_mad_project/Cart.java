@@ -11,8 +11,8 @@ public class Cart extends AppCompatActivity {
 
     Button b1;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle SavedInstanceState) {
+        super.onCreate(SavedInstanceState);
         setContentView(R.layout.activity_cart);
         b1 = findViewById(R.id.chakout);
     }
