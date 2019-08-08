@@ -225,9 +225,9 @@
         android:layout_marginTop="480dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:text="Rs.550"
         android:textSize="18sp"
-        android:textStyle="bold"
-        android:text="Rs.350" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView11"
