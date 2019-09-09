@@ -16,7 +16,7 @@
         app:srcCompat="@drawable/trende" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/mainImg"
         android:layout_width="170dp"
         android:layout_height="168dp"
         android:layout_marginStart="8dp"
@@ -44,7 +44,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/mainImg"
         app:layout_constraintVertical_bias="0.031" />
 
     <Button
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.859"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/mainImg"
         app:layout_constraintVertical_bias="0.024" />
 
     <TextView
@@ -83,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/mainImg"
         app:layout_constraintVertical_bias="0.275" />
 
     <TextView
@@ -102,7 +102,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.637"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/mainImg"
         app:layout_constraintVertical_bias="0.394" />
 
     <TextView

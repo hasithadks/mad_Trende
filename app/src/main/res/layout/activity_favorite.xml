@@ -145,7 +145,7 @@
                     android:text="@string/flower_Orchid" />
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/mainImg"
                     android:layout_width="122dp"
                     android:layout_height="123dp"
                     android:layout_alignTop="@+id/Item_name1"
@@ -168,7 +168,7 @@
                     android:layout_marginStart="9dp"
                     android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
                     android:layout_marginTop="9dp"
-                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_toEndOf="@+id/mainImg"
                     android:progressTint="@color/colorPrimaryDark"
                     android:rating="1"
                     tools:targetApi="lollipop" />
@@ -209,7 +209,7 @@
                     android:layout_marginLeft="@dimen/nav_header_vertical_spacing"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="11dp"
-                    android:layout_toEndOf="@+id/imageView2"
+                    android:layout_toEndOf="@+id/mainImg"
                     android:text="@string/txt_item_description" />
 
             </RelativeLayout>
