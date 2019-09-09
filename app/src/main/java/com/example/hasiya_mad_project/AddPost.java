@@ -298,6 +298,8 @@ public class AddPost extends AppCompatActivity {
             filepath04 = data.getData();
             filepath05 = data.getData();
 
+            Toast.makeText(getApplicationContext(),filepath.toString() + filepath01.toString() + filepath02.toString(),Toast.LENGTH_LONG).show();
+
 
 
             try{
