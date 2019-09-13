@@ -229,26 +229,6 @@
                 app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
                 app:srcCompat="@android:drawable/ic_menu_report_image" />
 
-            <ImageView
-                android:id="@+id/otherpic05"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                app:layout_constraintStart_toEndOf="@+id/otherpic04"
-                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
-                app:srcCompat="@android:drawable/ic_menu_report_image" />
-
-            <ImageView
-                android:id="@+id/otherpic06"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                app:layout_constraintStart_toEndOf="@+id/otherpic05"
-                app:layout_constraintTop_toTopOf="@+id/horizontalScrollView"
-                app:srcCompat="@android:drawable/ic_menu_report_image" />
-
 
         </LinearLayout>
     </HorizontalScrollView>

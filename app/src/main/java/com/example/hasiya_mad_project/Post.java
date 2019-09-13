@@ -14,12 +14,24 @@ public class Post {
     private String image01Add;
     private String image02Add;
     private String image03Add;
-    private String image04Add;
-    private String image05Add;
+
 
     public Post() {
 
+    }
 
+
+    public Post(String category, String location, int phoneno, String title, Double prrice, String description, Uri mainImageAdd, String image01Add, String image02Add, String image03Add) {
+        this.category = category;
+        this.location = location;
+        this.phoneno = phoneno;
+        this.title = title;
+        this.prrice = prrice;
+        this.description = description;
+        this.mainImageAdd = mainImageAdd;
+        this.image01Add = image01Add;
+        this.image02Add = image02Add;
+        this.image03Add = image03Add;
     }
 
     public String getCategory() {
@@ -102,19 +114,5 @@ public class Post {
         this.image03Add = image03Add;
     }
 
-    public String getImage04Add() {
-        return image04Add;
-    }
 
-    public void setImage04Add(String image04Add) {
-        this.image04Add = image04Add;
-    }
-
-    public String getImage05Add() {
-        return image05Add;
-    }
-
-    public void setImage05Add(String image05Add) {
-        this.image05Add = image05Add;
-    }
 }

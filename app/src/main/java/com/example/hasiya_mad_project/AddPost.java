@@ -37,7 +37,7 @@ public class AddPost extends AppCompatActivity {
 
     TextView mobile, title, price, des;
     Spinner plant, area;
-    ImageView mainimage,img1,img2,img3,img4,img5;
+    ImageView mainimage,img1,img2,img3;
     Button add;
   //  FirebaseDatabase database;
     DatabaseReference dbref;
@@ -62,8 +62,7 @@ public class AddPost extends AppCompatActivity {
     private Uri filepath01;
     private Uri filepath02;
     private Uri filepath03;
-    private Uri filepath04;
-    private Uri filepath05;
+
 
     @Override
     protected void onCreate(Bundle SavedInstanceState) {
@@ -83,8 +82,7 @@ public class AddPost extends AppCompatActivity {
         img1 = findViewById(R.id.otherpic02);
         img2 = findViewById(R.id.otherpic03);
         img3 = findViewById(R.id.otherpic04);
-        img4 = findViewById(R.id.otherpic05);
-        img5 = findViewById(R.id.otherpic06);
+
         add = findViewById(R.id.postbtn);
 
         post = new Post();
@@ -117,19 +115,7 @@ public class AddPost extends AppCompatActivity {
             }
         });
 
-        img4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                imagechooser();
-            }
-        });
 
-        img5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                imagechooser();
-            }
-        });
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -295,8 +281,7 @@ public class AddPost extends AppCompatActivity {
             filepath01 = data.getData();
             filepath02 = data.getData();
             filepath03 = data.getData();
-            filepath04 = data.getData();
-            filepath05 = data.getData();
+
 
             Toast.makeText(getApplicationContext(),filepath.toString() + filepath01.toString() + filepath02.toString(),Toast.LENGTH_LONG).show();
 
@@ -311,10 +296,8 @@ public class AddPost extends AppCompatActivity {
                 img2.setImageBitmap(bitmap2);
                 Bitmap bitmap3 = MediaStore.Images.Media.getBitmap(getContentResolver(),filepath03);
                 img3.setImageBitmap(bitmap3);
-                Bitmap bitmap4 = MediaStore.Images.Media.getBitmap(getContentResolver(),filepath04);
-                img4.setImageBitmap(bitmap4);
-                Bitmap bitmap5 = MediaStore.Images.Media.getBitmap(getContentResolver(),filepath05);
-                img5.setImageBitmap(bitmap5);
+
+
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (IOException e) {
