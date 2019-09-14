@@ -4,13 +4,14 @@ import android.net.Uri;
 
 public class Post {
 
+    private String company;
     private String category;
     private String location;
-    private int phoneno;
+    private String phoneno;
     private String title;
     private Double prrice;
     private String description;
-    private Uri mainImageAdd;
+    private String mImageUrl;
     private String image01Add;
     private String image02Add;
     private String image03Add;
@@ -20,18 +21,19 @@ public class Post {
 
     }
 
-
-    public Post(String category, String location, int phoneno, String title, Double prrice, String description, Uri mainImageAdd, String image01Add, String image02Add, String image03Add) {
+                            //, String image01Add, String image02Add, String image03Add, String company
+    public Post(String category, String location, String phoneno, String title, Double prrice, String description, String mImageUrl)  {
         this.category = category;
         this.location = location;
         this.phoneno = phoneno;
         this.title = title;
         this.prrice = prrice;
         this.description = description;
-        this.mainImageAdd = mainImageAdd;
-        this.image01Add = image01Add;
-        this.image02Add = image02Add;
-        this.image03Add = image03Add;
+        this.mImageUrl = mImageUrl;
+       // this.image01Add = image01Add;
+      //  this.image02Add = image02Add;
+       // this.image03Add = image03Add;
+       // this.company = company;
     }
 
     public String getCategory() {
@@ -50,11 +52,11 @@ public class Post {
         this.location = location;
     }
 
-    public int getPhoneno() {
+    public String getPhoneno() {
         return phoneno;
     }
 
-    public void setPhoneno(int phoneno) {
+    public void setPhoneno(String phoneno) {
         this.phoneno = phoneno;
     }
 
@@ -82,12 +84,12 @@ public class Post {
         this.description = description;
     }
 
-    public Uri getMainImageAdd() {
-        return mainImageAdd;
+    public String getMainImageAdd() {
+        return mImageUrl;
     }
 
-    public void setMainImageAdd(Uri mainImageAdd) {
-        this.mainImageAdd = mainImageAdd;
+    public void setMainImageAdd(String mainImageAdd) {
+        this.mImageUrl = mImageUrl;
     }
 
     public String getImage01Add() {
@@ -113,6 +115,15 @@ public class Post {
     public void setImage03Add(String image03Add) {
         this.image03Add = image03Add;
     }
+
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
+    }
+
 
 
 }

@@ -62,34 +62,14 @@
         app:layout_constraintTop_toBottomOf="@+id/divider"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider3"
-        tools:ignore="MissingConstraints">
-
-        <RelativeLayout
-            android:layout_width="414dp"
-            android:layout_height="538dp"
-            tools:layout_editor_absoluteX="-2dp"
-            tools:layout_editor_absoluteY="136dp">
-
-            <ListView
-                android:id="@+id/listview"
-                android:layout_width="match_parent"
-                android:layout_height="460dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentBottom="false"
-                android:layout_marginTop="2dp"
-                android:layout_marginBottom="53dp">
-            </ListView>
-
-
-        </RelativeLayout>
-    </ScrollView>
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

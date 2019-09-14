@@ -49,7 +49,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="92dp"
         android:layout_marginBottom="12dp"
-        android:text="Display Name"
+        android:text="@string/DisplayName"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/divider2"
@@ -84,7 +84,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="80dp"
         android:ems="10"
-        android:hint="Mobile Phone"
+        android:hint="@string/MobilePhone"
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/locationSpin" />
@@ -96,7 +96,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="80dp"
         android:ems="10"
-        android:hint="Title"
+        android:hint="@string/title"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mobiletxt" />
@@ -108,17 +108,18 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="80dp"
         android:ems="10"
-        android:hint="Price"
+        android:hint="@string/Price22"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titletxt" />
+
     <MultiAutoCompleteTextView
         android:id="@+id/descripTxt"
         android:layout_width="250dp"
         android:layout_height="44dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="80dp"
-        android:hint="Description about the post"
+        android:hint="@string/dess"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/price" />
 
@@ -250,7 +251,7 @@
         android:layout_width="225dp"
         android:layout_height="47dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/rounded_button"
         android:text="@string/postbtnn"
@@ -271,5 +272,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider"
         app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2tt"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/postbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

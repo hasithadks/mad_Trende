@@ -140,4 +140,10 @@ Yellow roses and daisy spray chrysanthemums along with white daisy spray chrysan
     <string name="thank_you">Thank You!</string>
 
     <string name="Sentemail">We have sent an email to \n <b>trendeLk@gmail.com</b> as a receipt.</string>
+    <string name="title">Title</string>
+    <string name="company">Company</string>
+    <string name="DisplayName">Display Name</string>
+    <string name="MobilePhone">Mobile Phone</string>
+    <string name="Price22">price</string>
+    <string name="dess">Description about the post</string>
 </resources>
