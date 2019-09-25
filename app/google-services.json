@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "325645701333",
+    "firebase_url": "https://mad-trende-app.firebaseio.com",
+    "project_id": "mad-trende-app",
+    "storage_bucket": "mad-trende-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325645701333:android:6930cf21b8ea7a4e91125c",
+        "android_client_info": {
+          "package_name": "com.example.hasiya_mad_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325645701333-7iml4vqb5d6ggsbs5n6dqb0ra0ljo9qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz58eNUkEpVmXTWItQS2Pah7HsQwgiiq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325645701333-7iml4vqb5d6ggsbs5n6dqb0ra0ljo9qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,14 +4,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ProgressDialog;
 import android.content.ContentResolver;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.provider.MediaStore;
 import android.text.TextUtils;
 import android.view.View;
 import android.webkit.MimeTypeMap;
@@ -32,10 +29,6 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
-
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.UUID;
 
 public class AddPost extends AppCompatActivity {
 
@@ -83,7 +76,7 @@ public class AddPost extends AppCompatActivity {
         mStorageReference = FirebaseStorage.getInstance().getReference("Post");
         mDatabaseReference = FirebaseDatabase.getInstance().getReference("Post");
 
-        mobile = findViewById(R.id.mobiletxt);
+        mobile = findViewById(R.id.cvc);
         title = findViewById(R.id.titletxt);
         price = findViewById(R.id.price);
         des = findViewById(R.id.descripTxt);
