@@ -4,8 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -15,6 +19,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+import java.security.PublicKey;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +29,8 @@ public class viewPaymentDetails extends AppCompatActivity {
 
     private Spinner namespn;
     DatabaseReference dbRef;
+    TextView cardno;
+    Button viewCard;
 
 
 
@@ -34,6 +41,8 @@ public class viewPaymentDetails extends AppCompatActivity {
 
         dbRef = FirebaseDatabase.getInstance().getReference().child("paymentDBClass");
         namespn = findViewById(R.id.namespinner);
+        viewCard = findViewById(R.id.loadResult);
+
 
         Query qr = dbRef.orderByChild("cname");
 
@@ -63,6 +72,26 @@ public class viewPaymentDetails extends AppCompatActivity {
         });
 
 
+        viewCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dbRef = FirebaseDatabase.getInstance().getReference().child("paymentDBClass").child(namespn.getSelectedItem().toString());
+
+                dbRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        cardno = findViewById(R.id.cardnumber);
+                        cardno.setText(dataSnapshot.child("cno").getValue().toString());
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+                        Toast.makeText(getApplicationContext(),"No Card Number to Display",Toast.LENGTH_SHORT).show();
+
+                    }
+                });
+            }
+        });
 
 
 

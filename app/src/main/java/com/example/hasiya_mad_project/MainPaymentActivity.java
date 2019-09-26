@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainPaymentActivity extends AppCompatActivity {
 
-    private Button vwButton , ManageButton;
+    private Button vwButton , addbutton , managebutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,8 @@ public class MainPaymentActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_payment);
 
         vwButton = findViewById(R.id.ViewPayments);
-        ManageButton = findViewById(R.id.managePayments);
+        addbutton = findViewById(R.id.AddPayments);
+        managebutton = findViewById(R.id.manPayments);
 
         vwButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,12 +33,20 @@ public class MainPaymentActivity extends AppCompatActivity {
         });
 
 
-        ManageButton.setOnClickListener(new View.OnClickListener() {
+        addbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
 
                 Intent fav_intent = new Intent(MainPaymentActivity.this,Payment.class);
+                startActivity(fav_intent);
+            }
+        });
+
+        managebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent fav_intent = new Intent(MainPaymentActivity.this,ManagePayments.class);
                 startActivity(fav_intent);
             }
         });

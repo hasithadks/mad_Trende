@@ -16,20 +16,36 @@
         android:layout_marginBottom="102dp"
         android:background="@drawable/rounded_button"
         android:text="View Payments"
-        app:layout_constraintBottom_toTopOf="@+id/managePayments"
+        app:layout_constraintBottom_toTopOf="@+id/AddPayments"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/managePayments"
+        android:id="@+id/manPayments"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="187dp"
+        android:background="@drawable/rounded_button"
+        android:text="Manage Payents"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddPayments" />
+
+    <Button
+        android:id="@+id/AddPayments"
         android:layout_width="170dp"
         android:layout_height="50dp"
         android:layout_marginStart="120dp"
         android:layout_marginTop="102dp"
         android:layout_marginEnd="121dp"
         android:background="@drawable/rounded_button"
-        android:text="Manage Payments"
+        android:text="Add Payment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ViewPayments" />

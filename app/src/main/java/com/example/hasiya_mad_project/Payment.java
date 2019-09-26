@@ -41,20 +41,38 @@ public class Payment extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Payment.this, "Payment Success..", Toast.LENGTH_SHORT).show();
 
 
                 try
                 {
-                    dbRef = FirebaseDatabase.getInstance().getReference().child("paymentDBClass");
-                    pc.setCno(cardNo.getText().toString().trim());
-                    pc.setCname(cardName.getText().toString().trim());
-                    pc.getCvcNo(cvcNum.getText().toString().trim());
+                    if(TextUtils.isEmpty(cardNo.getText().toString()))
+                    {
+                        Toast.makeText(getApplicationContext(),"Please Enter a card number", Toast.LENGTH_SHORT).show();
+                    }
+                    else if(TextUtils.isEmpty(cardName.getText().toString()))
+                    {
+                        Toast.makeText(getApplicationContext(),"Please Enter a card Owner name", Toast.LENGTH_SHORT).show();
+                    }
+                    else if(TextUtils.isEmpty(cvcNum.getText().toString()))
+                    {
+                        Toast.makeText(getApplicationContext(),"Please Enter a Security Code", Toast.LENGTH_SHORT).show();
+                    }
+                    else
+                    {
 
-                    dbRef.push().setValue(pc);
-                    Toast.makeText(getApplicationContext(),"Data saved Successfully.", Toast.LENGTH_SHORT).show();
-                    clearControls();
-                    openActivity2();
+                        Toast.makeText(Payment.this, "Payment Success..", Toast.LENGTH_SHORT).show();
+                        dbRef = FirebaseDatabase.getInstance().getReference().child("paymentDBClass");
+                        pc.setCno(cardNo.getText().toString().trim());
+                        pc.setCname(cardName.getText().toString().trim());
+                        pc.getCvcNo(cvcNum.getText().toString().trim());
+
+                        dbRef.push().setValue(pc);
+                        Toast.makeText(getApplicationContext(),"Data saved Successfully.", Toast.LENGTH_SHORT).show();
+                        clearControls();
+                        openActivity2();
+                    }
+
+
                 }
                 catch (Exception ex)
                 {
@@ -73,7 +91,7 @@ public class Payment extends AppCompatActivity {
     private void clearControls()
     {
         cardNo.setText("");
-        cardNo.setText("");
+        cardName.setText("");
         cvcNum.setText("");
 
     }
