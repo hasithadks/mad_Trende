@@ -68,13 +68,70 @@ Yellow roses and daisy spray chrysanthemums along with white daisy spray chrysan
     <string name="location">Location</string>
 
 
+    <string name="new_kandy_road_isurupura_malabe_malabe">new kandy road,isurupura,malabe.,Malabe,</string>
+
+    <string name="colombo_suburbs_western">Colombo-Suburbs,Western</string>
+
+
+    <string name="bill_to_the_same_address">Bill to the same address</string>
+    <string name="edit">EDIT</string>
+    <string name="delivary_option">Delivary Option</string>
+    <string name="standard">Standard</string>
+    <string name="get_by_10_17_aug">Get By 10-17 Aug</string>
+    <string name="vat_included_where_applicable">VAT included,where applicable</string>
+    <string name="total">Total</string>
+    <string name="totprice">Rs. 4250</string>
+
+
+    <string name="price">Price : Rs. 1850</string>
+    <string name="price1">Price : Rs. 2400</string>
+    <string name="cart">Cart</string>
+    <string name="des1">Mini Cactus Bonsai Plant Flower Indoor Succulent Perennial Rare Pot</string>
+    <string name="des2">Mini Cactus Bonsai Plant Flower Indoor Succulent Perennial Rare Pot</string>
+    <string name="qty">Qty</string>
+    <string name="qty1">Qty</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="view">View</string>
+    <string name="amari_gift_collection_sri_lanka">Amari Gift Collection Sri Lanka</string>
+    <string name="lassana_flora_pvt_ltd">Lassana Flora (Pvt.) Ltd</string>
+
+
+    <string name="sky_plants">Sky Plants</string>
+    <string name="plants_and_plants_centre">Plants and Plants Centre</string>
+    <string name="tropical_abundance_pvt_ltd">Tropical Abundance (Pvt) Ltd</string>
+    <string name="greenet_plants_and_flowers_pvt_ltd">Greenet Plants and Flowers (Pvt) Ltd</string>
+    <string name="lyra">Lyra</string>
+    <string name="mahima_plant_nursery">Mahima Plant Nursery</string>
+    <string name="location1">Amari, K-Zone, Ja-Ela</string>
+    <string name="location2">07, 25 Wijerama Mawatha, Colombo 00700</string>
+    <string name="location3">169 Nawala Road, Sri Jayawardenepura Kotte 00500</string>
+    <string name="location5">193A, Makola Rd</string>
+    <string name="location6">33 perera Rd, Pannipitiya 10230</string>
+    <string name="location7">870/3 Negombo-Colombo Main Rd, Wattala 11300</string>
+    <string name="location9">183 - 2/2 Galle Rd, Dehiwala-Mount Lavinia 10350</string>
+    <string name="sellers">Sellers</string>
+    <string name="pay_lkr_1500_00">Pay LKR.1500.00</string>
+    <string name="lkr_1500_00">LKR 1500.00</string>
+
+    <string name="the_payment_is_completed">The Payment is completed.</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="Sentemail">We have sent an email to \n <b>trendeLk@gmail.com</b> as a receipt.</string>
+    <string name="title">Title</string>
+
+    <string name="company">Company</string>
+    <string name="DisplayName">Display Name</string>
+    <string name="MobilePhone">Mobile Phone</string>
+    <string name="Price22">price</string>
+    <string name="dess">Description about the post</string>
+    <string name="cname">cname</string>
+    <string name="cno">cno</string>
     <string-array name="categoryspin">
         <item>Cactus Plants</item>
         <item>Orchid Plants</item>
         <item>Bonsai Plants</item>
         <item>Pots</item>
     </string-array>
-
     <string-array name="locationspin">
         <item>Gampaha</item>
         <item>Kadawatha</item>
@@ -91,59 +148,4 @@ Yellow roses and daisy spray chrysanthemums along with white daisy spray chrysan
         <item>J-ela</item>
         <item>Baththaramulla</item>
     </string-array>
-
-
-    <string name="new_kandy_road_isurupura_malabe_malabe">new kandy road,isurupura,malabe.,Malabe,</string>
-    <string name="colombo_suburbs_western">Colombo-Suburbs,Western</string>
-    <string name="bill_to_the_same_address">Bill to the same address</string>
-    <string name="edit">EDIT</string>
-    <string name="delivary_option">Delivary Option</string>
-    <string name="standard">Standard</string>
-    <string name="get_by_10_17_aug">Get By 10-17 Aug</string>
-    <string name="vat_included_where_applicable">VAT included,where applicable</string>
-
-
-    <string name="total">Total</string>
-    <string name="totprice">Rs. 4250</string>
-    <string name="price">Price : Rs. 1850</string>
-    <string name="price1">Price : Rs. 2400</string>
-    <string name="cart">Cart</string>
-    <string name="des1">Mini Cactus Bonsai Plant Flower Indoor Succulent Perennial Rare Pot</string>
-    <string name="des2">Mini Cactus Bonsai Plant Flower Indoor Succulent Perennial Rare Pot</string>
-    <string name="qty">Qty</string>
-    <string name="qty1">Qty</string>
-    <string name="checkout">CHECKOUT</string>
-    <string name="proceed_to_pay">Proceed to Pay</string>
-    <string name="view">View</string>
-
-
-    <string name="amari_gift_collection_sri_lanka">Amari Gift Collection Sri Lanka</string>
-    <string name="lassana_flora_pvt_ltd">Lassana Flora (Pvt.) Ltd</string>
-    <string name="sky_plants">Sky Plants</string>
-    <string name="plants_and_plants_centre">Plants and Plants Centre</string>
-    <string name="tropical_abundance_pvt_ltd">Tropical Abundance (Pvt) Ltd</string>
-    <string name="greenet_plants_and_flowers_pvt_ltd">Greenet Plants and Flowers (Pvt) Ltd</string>
-    <string name="lyra">Lyra</string>
-    <string name="mahima_plant_nursery">Mahima Plant Nursery</string>
-    <string name="location1">Amari, K-Zone, Ja-Ela</string>
-    <string name="location2">07, 25 Wijerama Mawatha, Colombo 00700</string>
-    <string name="location3">169 Nawala Road, Sri Jayawardenepura Kotte 00500</string>
-    <string name="location5">193A, Makola Rd</string>
-    <string name="location6">33 perera Rd, Pannipitiya 10230</string>
-    <string name="location7">870/3 Negombo-Colombo Main Rd, Wattala 11300</string>
-    <string name="location9">183 - 2/2 Galle Rd, Dehiwala-Mount Lavinia 10350</string>
-    <string name="sellers">Sellers</string>
-
-    <string name="pay_lkr_1500_00">Pay LKR.1500.00</string>
-    <string name="lkr_1500_00">LKR 1500.00</string>
-    <string name="the_payment_is_completed">The Payment is completed.</string>
-    <string name="thank_you">Thank You!</string>
-
-    <string name="Sentemail">We have sent an email to \n <b>trendeLk@gmail.com</b> as a receipt.</string>
-    <string name="title">Title</string>
-    <string name="company">Company</string>
-    <string name="DisplayName">Display Name</string>
-    <string name="MobilePhone">Mobile Phone</string>
-    <string name="Price22">price</string>
-    <string name="dess">Description about the post</string>
 </resources>

@@ -42,7 +42,7 @@ public class Payment extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(Payment.this, "Payment Success..", Toast.LENGTH_SHORT).show();
-                openActivity2();
+
 
                 try
                 {
@@ -52,8 +52,9 @@ public class Payment extends AppCompatActivity {
                     pc.getCvcNo(cvcNum.getText().toString().trim());
 
                     dbRef.push().setValue(pc);
-                    Toast.makeText(getApplicationContext(),"Data saveed Successfully.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Data saved Successfully.", Toast.LENGTH_SHORT).show();
                     clearControls();
+                    openActivity2();
                 }
                 catch (Exception ex)
                 {
@@ -65,6 +66,8 @@ public class Payment extends AppCompatActivity {
             }
 
         });
+
+
     }
 
     private void clearControls()

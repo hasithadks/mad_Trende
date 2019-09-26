@@ -145,8 +145,8 @@ public class MainActivity extends AppCompatActivity
             Intent fav_intent = new Intent(MainActivity.this,Cart.class);
             startActivity(fav_intent);
 
-        } else if (id == R.id.nav_payment) {
-            Intent fav_intent = new Intent(MainActivity.this,Payment.class);
+        } else if (id == R.id.nav_paymentmain) {
+            Intent fav_intent = new Intent(MainActivity.this,MainPaymentActivity.class);
             startActivity(fav_intent);
 
         } else if (id == R.id.nav_share) {

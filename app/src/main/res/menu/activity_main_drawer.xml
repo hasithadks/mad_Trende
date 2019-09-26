@@ -22,7 +22,7 @@
             android:icon="@drawable/ic_shopping_cart_black_24dp"
             android:title="@string/menu_cart" />
         <item
-            android:id="@+id/nav_payment"
+            android:id="@+id/nav_paymentmain"
             android:icon="@drawable/ic_monetization_on_black_24dp"
             android:title="@string/menu_payment" />
     </group>
